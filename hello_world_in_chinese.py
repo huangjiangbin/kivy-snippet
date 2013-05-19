@@ -10,6 +10,7 @@ from kivy.uix.label import Label
 
 class MyApp(App):
     def build(self):
+        #return Label(text=u"你好，世界！", font_name="msyh.ttf")
         a = Label()
         a.font_name = "msyh.ttf"
         a.text = u"你好，世界！"
